@@ -58,7 +58,7 @@ class Server{
         var pool = new List<Fortune>();
         try
         {
-            string path = @"C:\Users\ABDULLAH ERTEN\Desktop\fortuneCookie\server\fortunes.txt";
+            string path = Path.Combine(AppDomain.CurrentDomain.BaseDirectory, "fortunes.txt");
             if (File.Exists(path))
             {   
                 foreach(var line in File.ReadAllLines(path)){

@@ -85,7 +85,7 @@ class FortuneClient
 
                         else if (cmdUpper == "UPLOAD")
                         {
-                            string fileToSend = @"C:\Users\ABDULLAH ERTEN\Desktop\fortuneCookie\client\new_fortunes.txt";
+                            string fileToSend =Path.Combine(AppDomain.CurrentDomain.BaseDirectory, "new_fortunes.txt") ;
                             if (File.Exists(fileToSend))
                             {
                                 writer.WriteLine("UPLOAD");//notificate the server to be ready
