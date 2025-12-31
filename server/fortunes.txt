@@ -1,0 +1,54 @@
+Motivational|Rare|You didn’t come this far to only come this far.
+Success|Common|A small step today leads to a big win tomorrow.
+Social|Common|Your kindness will return to you soon.
+Future|Common|Good news will arrive when you least expect it.
+Wise|Common|Trust yourself—you’re on the right path.
+Social|Common|A new friendship will bring joy.
+Success|Rare|Your hard work is about to pay off.
+Future|Common|Something you’ve been waiting for is coming.
+Future|Common|A pleasant surprise is in your near future.
+Motivational|Common|Believe in your ideas—they matter.
+Wise|Common|Happiness grows when you share it.
+Success|Common|Your creativity will solve a problem soon.
+Social|Rare|A smile will open an important door.
+Wise|Common|You will learn something valuable very soon.
+Success|Common|Patience will bring you success.
+Motivational|Common|A positive attitude brings positive results.
+Social|Rare|Someone appreciates you more than you know.
+Motivational|Common|Your confidence will inspire others.
+Future|Rare|A fresh start is closer than you think.
+Future|Common|Good luck follows you today.
+Success|Common|Your efforts are being noticed.
+Success|Common|An exciting idea will come to you soon.
+Motivational|Legendary|You are capable of amazing things.
+Wise|Common|A calm mind brings clear answers.
+Wise|Common|Joy is found in simple moments.
+Future|Rare|A new opportunity will challenge you—in a good way.
+Future|Rare|Your future is brighter than it seems.
+Wise|Common|Listen closely—good advice is coming.
+Success|Rare|A goal you set will soon be reached.
+Social|Common|Today’s kindness creates tomorrow’s happiness.
+Social|Common|You will make someone’s day better.
+Success|Common|Your curiosity will lead to success.
+Future|Rare|A happy memory is about to be made.
+Motivational|Common|You are stronger than you realize.
+Motivational|Common|Good things come from trying again.
+Motivational|Legendary|A moment of courage will change everything.
+Motivational|Rare|Your optimism is your superpower.
+Wise|Common|Something small will bring big joy.
+Future|Legendary|The best is yet to come.
+Future|Rare|A new path will open when you least expect it.
+Success|Common|Your patience is about to be rewarded.
+Future|Rare|A helpful opportunity will come from an unexpected place.
+Motivational|Common|Your positive energy attracts good things.
+Motivational|Common|Today is a perfect day to believe in yourself.
+Wise|Common|A simple choice will lead to happiness.
+Social|Common|Someone nearby has good news for you.
+Success|Common|Your efforts will bring a satisfying result.
+Wise|Common|A moment of calm will bring clarity.
+Success|Rare|You are closer to your goal than you think.
+Social|Common|A friendly gesture will make a difference.
+Future|Common|Your future holds a pleasant surprise.
+Success|Common|A fresh idea will brighten your day.
+Wise|Common|Trust the process—you’re doing well.
+Future|Common|Good fortune is smiling at you.
