@@ -100,17 +100,13 @@ While the Fortune Cookie Network is fully functional for local testing, there ar
 -Description: When running multiple client instances from the same directory using dotnet run, the .NET SDK attempts to rebuild the project and overwrite the Client.exe.
 -Impact: Since the first client process is already using the .exe, Windows locks the file, causing a build failure for subsequent instances.
 -Workaround: Users must launch clients one by one, or use the `dotnet run --no-build` command for additional clients to bypass the compilation phase.
-2. Hardcoded Absolute File Paths
--Description: The file paths for fortunes.txt (Server) and new_fortunes.txt (Client) are currently hardcoded as absolute path
--Impact: The application may fail to load or upload files if run on a different machine or user profile without manual path adjustment in the source code.
--Future Fix: These should be transitioned to relative paths using AppDomain.CurrentDomain.BaseDirectory.
-3. UDP Multicast Network Restrictions
+2. UDP Multicast Network Restrictions
 -Description: The "Fortune of the Day" broadcast relies on UDP Multicast at address 239.0.0.1.
 -Impact: Some network environments, such as public Wi-Fi, corporate firewalls, or active VPNs, may block multicast traffic, preventing the broadcast from appearing in the client terminal.
-4. In-Memory Data Volatility
+3. In-Memory Data Volatility
 -Description: Both the server-side clientMap and the client-side my_fortune_history are stored as in-memory collections (Dictionary and List).
 -Impact: All data, including client IDs and received fortune history, is lost once the respective applications are terminated. No persistent database (e.g., SQL or JSON) is currently implemented.
-5. Lack of Encryption
+4. Lack of Encryption
 -Description: All communication between the client and server is transmitted as plain text over NetworkStream.
 -Impact: The system is intended for local network testing only. It is vulnerable to packet sniffing if deployed over a public or unsecured network.
 
