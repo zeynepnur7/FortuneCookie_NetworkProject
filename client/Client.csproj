@@ -12,5 +12,8 @@
     <ProjectReference Include="..\common\Common.csproj" />
     <None Update="fortunes.txt"> <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
+    <None Update="new_fortunes.txt">
+    <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
   </ItemGroup>
 </Project>
